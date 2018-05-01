@@ -7,5 +7,10 @@ pipeline {
         sh 'java -version'
       }
     }
+    stage('') {
+      steps {
+        echo 'hello universe'
+      }
+    }
   }
 }
